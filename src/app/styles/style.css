@@ -1,0 +1,19 @@
+@keyframes line-loading {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .line-loading {
+    width: 100%;
+    height: 4px;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, rgb(99, 11, 99) 70%, gray 70%);
+    width: 170px;
+    margin-left: 0%;
+
+}
+  
